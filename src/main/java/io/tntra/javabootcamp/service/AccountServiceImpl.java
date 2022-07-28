@@ -4,9 +4,10 @@ import java.util.HashMap;
 import io.tntra.javabootcamp.enumpkg.Acc_Type;
 import io.tntra.javabootcamp.exception.*;
 import io.tntra.javabootcamp.model.Account;
+import org.springframework.stereotype.Component;
 
-
-public abstract class  AccountServiceImpl implements AccountService {
+@Component
+public class  AccountServiceImpl implements AccountService {
     private final HashMap<String, Account> accObj = new HashMap<>();
     @Override
     public BigDecimal deposit( BigDecimal amount, String ownerName) throws AccountNotAvailable{

@@ -1,7 +1,7 @@
 package io.tntra.javabootcamp.model;
 
 import static io.tntra.javabootcamp.enumpkg.Acc_Type.EnumtoString;
-//import static io.tntra.javabootcamp.enumpkg.Acc_Type.toString;
+
 
 import java.math.BigDecimal;
 
